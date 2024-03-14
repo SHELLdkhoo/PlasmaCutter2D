@@ -1,0 +1,22 @@
+O 001 ;       
+N 01 T02 ;
+G54 G90 ;
+
+
+;CONTORNO PARA MOSTRAR EL ARCO A DIBUJAR
+G00 X 40.0    Y -55.0;
+G01 X 30.0    Y -40.0;
+G00 X 14.3876 Y -49.0138;
+G01 X 30.0    Y -40.0;
+
+
+;DIBUJO DE OTRO ARCO
+G00 X 40.0  Y -55.0;
+G03 X 14.3876    Y -49.0138   I -10   J 15;
+
+
+
+
+
+
+
